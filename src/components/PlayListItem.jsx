@@ -2,7 +2,7 @@ import React from 'react'
 
 const PlayListItem = ({ title, artist, duration, className }) => {
   return (
-    <div className='w-96 flex-col mt-2'>
+    <div className='w-96 flex-col mt-2.5'>
       <div className={`flex justify-between ${className}`}>
         <div className='text-left'>
           <p className='text-base  font-bold'>{title}</p>

@@ -7,11 +7,13 @@ import React from 'react'
 const CurrentlyPlaying = () => {
   return (
     <div>
+      <div className="">
       <CoverArt/>
       <SongTitle/>
       <PlayControls/>
       <VolumeControls/>
       </div>
+    </div>
   )
 }
 
