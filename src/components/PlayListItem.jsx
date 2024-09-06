@@ -1,14 +1,14 @@
 import React from 'react'
 
-const PlayListItem = () => {
+const PlayListItem = ({ title, artist, duration, className }) => {
   return (
-    <div className='w-96 flex-col mt-6'>
-      <div className='flex justify-between'>
+    <div className='w-96 flex-col mt-2'>
+      <div className={`flex justify-between ${className}`}>
         <div className='text-left'>
-          <p className='text-base  font-bold'>Electric Fever</p>
-          <p className='text-slate-500 font-medium'>Neon Jungle</p>
+          <p className='text-base  font-bold'>{title}</p>
+          <p className='text-slate-500 font-medium'>{artist}</p>
         </div>
-        <p className='text-slate-500 font-medium text-lg mt-2'>8:41</p>
+        <p className='text-slate-500 font-medium text-lg mt-2'>{duration}</p>
       </div>
     </div>
   )
