@@ -6,9 +6,9 @@ const PlayListItem = ({ title, artist, duration, className }) => {
       <div className={`flex justify-between ${className}`}>
         <div className='text-left'>
           <p className='text-base  font-bold'>{title}</p>
-          <p className='text-slate-500 font-medium'>{artist}</p>
+          <p className='text-jacarta-600 font-medium'>{artist}</p>
         </div>
-        <p className='text-slate-500 font-medium text-lg mt-2'>{duration}</p>
+        <p className='text-jacarta-400 font-medium text-lg mt-2'>{duration}</p>
       </div>
     </div>
   )
